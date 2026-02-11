@@ -1,0 +1,51 @@
+@import './global.scss';
+@import './colors.scss';
+@import './scales.scss';
+@import './themes.scss';
+
+@font-face {
+  font-family: calibri;
+  src: url(fonts/calibri.ttf);
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url(fonts/ubuntu.ttf);
+}
+
+@font-face {
+  font-family: playwrite;
+  src: url(fonts/playwrite.ttf);
+}
+
+@font-face {
+  font-family: lobster;
+  src: url(fonts/lobster.ttf);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: ubuntu;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.playwrite{
+  font-family: playwrite;
+}
+
+.lobster{
+  font-family: lobster;
+}
