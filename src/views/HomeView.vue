@@ -254,7 +254,6 @@ export default {
             }
     },
     created(){
-        console.log(import.meta.glob("@/"))
         
     }
 }
